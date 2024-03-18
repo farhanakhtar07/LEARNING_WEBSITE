@@ -1,0 +1,81 @@
+header{
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-bar img{
+    width: 2rem;
+    height: 2rem;
+}
+.nav-bar{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: azure;
+}
+nav h1{
+    text-align: start;
+    padding: 1rem;
+    padding-left: 7rem;
+}
+.nav-bar:hover{
+    color: rgb(148, 200, 245);
+    text-decoration:dashed;
+}
+main h3,p,a{
+    padding-left: 1.5rem;
+}
+.image img{
+    width: 50%;
+    height: 30rem;
+    border-radius: 4rem;
+}
+.image{
+    text-align: center;
+    margin: 1.5rem;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1, .box2{
+    margin: 2rem;
+    
+}
+.font-set{
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size: larger;
+padding: .2rem;
+    
+}
+.box1>ul{
+    padding-left: 4rem;
+    font-size: large;
+    
+}
+.box2 table tr th,td{
+    border: 2px solid black;
+    border-collapse: separate;
+}
+.box2 table{
+    border: 2px solid black;
+    text-align: start;
+}
+footer{
+    background-color: black;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+footer>p{
+    font-size: larger;
+    color: white;
+    font-style: oblique;
+}
